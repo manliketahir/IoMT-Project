@@ -1,0 +1,10 @@
+# Per-topic access control for the mutual-TLS listener.
+# With use_identity_as_username, %u is the certificate common name.
+# A patient publishes only under its own bed id, so bed-1 cannot write
+# ward/bed-2/... . The collector may read every ward topic.
+
+pattern write ward/%u/vitals/#
+pattern read  ward/%u/vitals/#
+
+user collector
+topic read ward/#

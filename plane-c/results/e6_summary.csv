@@ -1,0 +1,9 @@
+exp,condition,scale,reps,pdr_med,pdr_lo,pdr_hi,ack_ms_med,ack_ms_lo,ack_ms_hi,ack_ms_p95,cpu_med,rss_kb_med,forged_accept_med,forged_persist_med,atk_established_med
+e6a,baseline,30,10,1.0,1.0,1.0,0.186,0.185,0.188,0.267,0.36,22136.0,nan,nan,nan
+e6a,mitig,30,10,1.0,1.0,1.0,0.237,0.233,0.239,0.344,0.45,27030.0,nan,nan,nan
+e6a,attack,30,10,1.0,1.0,1.0,0.188,0.187,0.189,0.272,0.44,22488.0,1.0,300.0,nan
+e6a,attack_mitig,30,10,1.0,1.0,1.0,0.239,0.234,0.243,0.355,0.45,26906.0,0.0,0.0,nan
+e6b,baseline,30,10,1.0,1.0,1.0,0.435,0.423,0.442,0.592,1.43,21918.0,nan,nan,nan
+e6b,mitig,30,10,1.0,1.0,1.0,0.435,0.423,0.445,0.596,1.47,22084.0,nan,nan,nan
+e6b,attack,30,10,0.0,0.0,0.0,nan,nan,nan,nan,0.78,25306.0,nan,nan,300.0
+e6b,attack_mitig,30,10,1.0,1.0,1.0,0.416,0.412,0.425,0.56,1.41,22846.0,nan,nan,300.0

@@ -1,0 +1,3 @@
+sources,per_source_count,duration,attempted,established,refused
+1,200,30.0,188,158,30
+8,200,30.0,1494,1259,235

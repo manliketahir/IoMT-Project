@@ -1,0 +1,225 @@
+=== E6 full sweep start Sat Nov  7 03:24:58 PM PKT 2026 ===
+reps=10 duration=60 scale=30  (80 runs)
+[e6a/baseline/s30/r1] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6a/baseline/s30/r1
+[e6a/baseline/s30/r2] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6a/baseline/s30/r2
+[e6a/baseline/s30/r3] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6a/baseline/s30/r3
+[e6a/baseline/s30/r4] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6a/baseline/s30/r4
+[e6a/baseline/s30/r5] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6a/baseline/s30/r5
+[e6a/baseline/s30/r6] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6a/baseline/s30/r6
+[e6a/baseline/s30/r7] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6a/baseline/s30/r7
+[e6a/baseline/s30/r8] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6a/baseline/s30/r8
+[e6a/baseline/s30/r9] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6a/baseline/s30/r9
+[e6a/baseline/s30/r10] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6a/baseline/s30/r10
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/mitig/s30/r1] tls=True cap=none allowlist=True attack=False validate=structural
+  done -> results/e6a/mitig/s30/r1
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/mitig/s30/r2] tls=True cap=none allowlist=True attack=False validate=structural
+  done -> results/e6a/mitig/s30/r2
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/mitig/s30/r3] tls=True cap=none allowlist=True attack=False validate=structural
+  done -> results/e6a/mitig/s30/r3
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/mitig/s30/r4] tls=True cap=none allowlist=True attack=False validate=structural
+  done -> results/e6a/mitig/s30/r4
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/mitig/s30/r5] tls=True cap=none allowlist=True attack=False validate=structural
+  done -> results/e6a/mitig/s30/r5
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/mitig/s30/r6] tls=True cap=none allowlist=True attack=False validate=structural
+  done -> results/e6a/mitig/s30/r6
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/mitig/s30/r7] tls=True cap=none allowlist=True attack=False validate=structural
+  done -> results/e6a/mitig/s30/r7
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/mitig/s30/r8] tls=True cap=none allowlist=True attack=False validate=structural
+  done -> results/e6a/mitig/s30/r8
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/mitig/s30/r9] tls=True cap=none allowlist=True attack=False validate=structural
+  done -> results/e6a/mitig/s30/r9
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/mitig/s30/r10] tls=True cap=none allowlist=True attack=False validate=structural
+  done -> results/e6a/mitig/s30/r10
+[e6a/attack/s30/r1] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6a/attack/s30/r1
+[e6a/attack/s30/r2] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6a/attack/s30/r2
+[e6a/attack/s30/r3] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6a/attack/s30/r3
+[e6a/attack/s30/r4] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6a/attack/s30/r4
+[e6a/attack/s30/r5] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6a/attack/s30/r5
+[e6a/attack/s30/r6] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6a/attack/s30/r6
+[e6a/attack/s30/r7] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6a/attack/s30/r7
+[e6a/attack/s30/r8] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6a/attack/s30/r8
+[e6a/attack/s30/r9] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6a/attack/s30/r9
+[e6a/attack/s30/r10] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6a/attack/s30/r10
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/attack_mitig/s30/r1] tls=True cap=none allowlist=True attack=True validate=structural
+  done -> results/e6a/attack_mitig/s30/r1
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/attack_mitig/s30/r2] tls=True cap=none allowlist=True attack=True validate=structural
+  done -> results/e6a/attack_mitig/s30/r2
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/attack_mitig/s30/r3] tls=True cap=none allowlist=True attack=True validate=structural
+  done -> results/e6a/attack_mitig/s30/r3
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/attack_mitig/s30/r4] tls=True cap=none allowlist=True attack=True validate=structural
+  done -> results/e6a/attack_mitig/s30/r4
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/attack_mitig/s30/r5] tls=True cap=none allowlist=True attack=True validate=structural
+  done -> results/e6a/attack_mitig/s30/r5
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/attack_mitig/s30/r6] tls=True cap=none allowlist=True attack=True validate=structural
+  done -> results/e6a/attack_mitig/s30/r6
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/attack_mitig/s30/r7] tls=True cap=none allowlist=True attack=True validate=structural
+  done -> results/e6a/attack_mitig/s30/r7
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/attack_mitig/s30/r8] tls=True cap=none allowlist=True attack=True validate=structural
+  done -> results/e6a/attack_mitig/s30/r8
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/attack_mitig/s30/r9] tls=True cap=none allowlist=True attack=True validate=structural
+  done -> results/e6a/attack_mitig/s30/r9
+[allowlist] on via nft (port 2575; only 127.0.0.2 and 127.0.0.1 may connect)
+[allowlist] off
+[e6a/attack_mitig/s30/r10] tls=True cap=none allowlist=True attack=True validate=structural
+  done -> results/e6a/attack_mitig/s30/r10
+[e6b/baseline/s30/r1] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6b/baseline/s30/r1
+[e6b/baseline/s30/r2] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6b/baseline/s30/r2
+[e6b/baseline/s30/r3] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6b/baseline/s30/r3
+[e6b/baseline/s30/r4] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6b/baseline/s30/r4
+[e6b/baseline/s30/r5] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6b/baseline/s30/r5
+[e6b/baseline/s30/r6] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6b/baseline/s30/r6
+[e6b/baseline/s30/r7] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6b/baseline/s30/r7
+[e6b/baseline/s30/r8] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6b/baseline/s30/r8
+[e6b/baseline/s30/r9] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6b/baseline/s30/r9
+[e6b/baseline/s30/r10] tls=False cap=none allowlist=False attack=False validate=structural
+  done -> results/e6b/baseline/s30/r10
+[e6b/mitig/s30/r1] tls=False cap=20 allowlist=False attack=False validate=structural
+  done -> results/e6b/mitig/s30/r1
+[e6b/mitig/s30/r2] tls=False cap=20 allowlist=False attack=False validate=structural
+  done -> results/e6b/mitig/s30/r2
+[e6b/mitig/s30/r3] tls=False cap=20 allowlist=False attack=False validate=structural
+  done -> results/e6b/mitig/s30/r3
+[e6b/mitig/s30/r4] tls=False cap=20 allowlist=False attack=False validate=structural
+  done -> results/e6b/mitig/s30/r4
+[e6b/mitig/s30/r5] tls=False cap=20 allowlist=False attack=False validate=structural
+  done -> results/e6b/mitig/s30/r5
+[e6b/mitig/s30/r6] tls=False cap=20 allowlist=False attack=False validate=structural
+  done -> results/e6b/mitig/s30/r6
+[e6b/mitig/s30/r7] tls=False cap=20 allowlist=False attack=False validate=structural
+  done -> results/e6b/mitig/s30/r7
+[e6b/mitig/s30/r8] tls=False cap=20 allowlist=False attack=False validate=structural
+  done -> results/e6b/mitig/s30/r8
+[e6b/mitig/s30/r9] tls=False cap=20 allowlist=False attack=False validate=structural
+  done -> results/e6b/mitig/s30/r9
+[e6b/mitig/s30/r10] tls=False cap=20 allowlist=False attack=False validate=structural
+  done -> results/e6b/mitig/s30/r10
+[e6b/attack/s30/r1] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6b/attack/s30/r1
+[e6b/attack/s30/r2] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6b/attack/s30/r2
+[e6b/attack/s30/r3] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6b/attack/s30/r3
+[e6b/attack/s30/r4] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6b/attack/s30/r4
+[e6b/attack/s30/r5] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6b/attack/s30/r5
+[e6b/attack/s30/r6] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6b/attack/s30/r6
+[e6b/attack/s30/r7] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6b/attack/s30/r7
+[e6b/attack/s30/r8] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6b/attack/s30/r8
+[e6b/attack/s30/r9] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6b/attack/s30/r9
+[e6b/attack/s30/r10] tls=False cap=none allowlist=False attack=True validate=structural
+  done -> results/e6b/attack/s30/r10
+[e6b/attack_mitig/s30/r1] tls=False cap=20 allowlist=False attack=True validate=structural
+  done -> results/e6b/attack_mitig/s30/r1
+[e6b/attack_mitig/s30/r2] tls=False cap=20 allowlist=False attack=True validate=structural
+  done -> results/e6b/attack_mitig/s30/r2
+[e6b/attack_mitig/s30/r3] tls=False cap=20 allowlist=False attack=True validate=structural
+  done -> results/e6b/attack_mitig/s30/r3
+[e6b/attack_mitig/s30/r4] tls=False cap=20 allowlist=False attack=True validate=structural
+  done -> results/e6b/attack_mitig/s30/r4
+[e6b/attack_mitig/s30/r5] tls=False cap=20 allowlist=False attack=True validate=structural
+  done -> results/e6b/attack_mitig/s30/r5
+[e6b/attack_mitig/s30/r6] tls=False cap=20 allowlist=False attack=True validate=structural
+  done -> results/e6b/attack_mitig/s30/r6
+[e6b/attack_mitig/s30/r7] tls=False cap=20 allowlist=False attack=True validate=structural
+  done -> results/e6b/attack_mitig/s30/r7
+[e6b/attack_mitig/s30/r8] tls=False cap=20 allowlist=False attack=True validate=structural
+  done -> results/e6b/attack_mitig/s30/r8
+[e6b/attack_mitig/s30/r9] tls=False cap=20 allowlist=False attack=True validate=structural
+  done -> results/e6b/attack_mitig/s30/r9
+[e6b/attack_mitig/s30/r10] tls=False cap=20 allowlist=False attack=True validate=structural
+  done -> results/e6b/attack_mitig/s30/r10
+[*] E6 sweep complete. Now: python3 analyze_e6.py
+
+real	92m16.198s
+user	6m35.785s
+sys	4m3.603s
+=== analysis Sat Nov  7 04:57:14 PM PKT 2026 ===
+[e6a s30] mitigation ACK-latency cost (baseline vs mitig): p=0.0001806
+[e6a s30] mitigation efficacy on gateway PDR (attack vs attack_mitig): p=nan
+[e6a s30] forged acceptance attack=1.000 attack_mitig=0.000
+[e6b s30] mitigation ACK-latency cost (baseline vs mitig): p=0.9698
+[e6b s30] mitigation efficacy on gateway PDR (attack vs attack_mitig): p=1.594e-05
+[*] wrote results/e6_summary.csv (8 rows)
+=== DONE Sat Nov  7 04:57:19 PM PKT 2026 ===
+--- e6_summary.csv ---
+exp,condition,scale,reps,pdr_med,pdr_lo,pdr_hi,ack_ms_med,ack_ms_lo,ack_ms_hi,ack_ms_p95,cpu_med,rss_kb_med,forged_accept_med,forged_persist_med,atk_established_med
+e6a,baseline,30,10,1.0,1.0,1.0,0.186,0.185,0.188,0.267,0.36,22136.0,nan,nan,nan
+e6a,mitig,30,10,1.0,1.0,1.0,0.237,0.233,0.239,0.344,0.45,27030.0,nan,nan,nan
+e6a,attack,30,10,1.0,1.0,1.0,0.188,0.187,0.189,0.272,0.44,22488.0,1.0,300.0,nan
+e6a,attack_mitig,30,10,1.0,1.0,1.0,0.239,0.234,0.243,0.355,0.45,26906.0,0.0,0.0,nan
+e6b,baseline,30,10,1.0,1.0,1.0,0.435,0.423,0.442,0.592,1.43,21918.0,nan,nan,nan
+e6b,mitig,30,10,1.0,1.0,1.0,0.435,0.423,0.445,0.596,1.47,22084.0,nan,nan,nan
+e6b,attack,30,10,0.0,0.0,0.0,nan,nan,nan,nan,0.78,25306.0,nan,nan,300.0
+e6b,attack_mitig,30,10,1.0,1.0,1.0,0.416,0.412,0.425,0.56,1.41,22846.0,nan,nan,300.0

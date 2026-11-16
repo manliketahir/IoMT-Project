@@ -1,0 +1,401 @@
+1793684835: Info: running mosquitto as user: kali.
+1793684836: New connection from 127.0.0.2:51093 on port 8883.
+1793684836: New connection from 127.0.0.2:51573 on port 8883.
+1793684836: New connection from 127.0.0.2:37269 on port 8883.
+1793684836: New connection from 127.0.0.2:37129 on port 8883.
+1793684836: New connection from 127.0.0.2:54643 on port 8883.
+1793684836: New connection from 127.0.0.2:39779 on port 8883.
+1793684836: New connection from 127.0.0.2:60585 on port 8883.
+1793684836: New connection from 127.0.0.2:55981 on port 8883.
+1793684836: New connection from 127.0.0.2:50011 on port 8883.
+1793684836: New connection from 127.0.0.2:56267 on port 8883.
+1793684836: New connection from 127.0.0.2:46555 on port 8883.
+1793684836: New connection from 127.0.0.2:55331 on port 8883.
+1793684836: New connection from 127.0.0.2:58385 on port 8883.
+1793684836: New connection from 127.0.0.2:60861 on port 8883.
+1793684836: New connection from 127.0.0.2:46613 on port 8883.
+1793684836: New connection from 127.0.0.2:56169 on port 8883.
+1793684836: New connection from 127.0.0.2:54349 on port 8883.
+1793684836: New connection from 127.0.0.2:35089 on port 8883.
+1793684836: New connection from 127.0.0.2:60781 on port 8883.
+1793684836: New connection from 127.0.0.2:55749 on port 8883.
+1793684836: New connection from 127.0.0.2:54487 on port 8883.
+1793684836: New connection from 127.0.0.2:41443 on port 8883.
+1793684836: New connection from 127.0.0.2:37653 on port 8883.
+1793684836: New connection from 127.0.0.2:52705 on port 8883.
+1793684836: New connection from 127.0.0.2:45755 on port 8883.
+1793684836: New connection from 127.0.0.2:57631 on port 8883.
+1793684836: New connection from 127.0.0.2:34713 on port 8883.
+1793684836: New connection from 127.0.0.2:36097 on port 8883.
+1793684836: New connection from 127.0.0.2:57553 on port 8883.
+1793684836: New connection from 127.0.0.2:43895 on port 8883.
+1793684836: New connection from 127.0.0.2:35399 on port 8883.
+1793684836: New connection from 127.0.0.2:45167 on port 8883.
+1793684836: New connection from 127.0.0.2:37233 on port 8883.
+1793684836: New connection from 127.0.0.2:42999 on port 8883.
+1793684836: New connection from 127.0.0.2:49335 on port 8883.
+1793684836: New connection from 127.0.0.2:41289 on port 8883.
+1793684836: New connection from 127.0.0.2:33655 on port 8883.
+1793684836: New connection from 127.0.0.2:41701 on port 8883.
+1793684836: New connection from 127.0.0.2:54089 on port 8883.
+1793684836: New connection from 127.0.0.2:37259 on port 8883.
+1793684836: New connection from 127.0.0.2:35175 on port 8883.
+1793684836: New connection from 127.0.0.2:36833 on port 8883.
+1793684836: New connection from 127.0.0.2:49001 on port 8883.
+1793684836: New connection from 127.0.0.2:35501 on port 8883.
+1793684836: New connection from 127.0.0.2:60807 on port 8883.
+1793684836: New connection from 127.0.0.2:60509 on port 8883.
+1793684836: New connection from 127.0.0.2:59137 on port 8883.
+1793684836: New connection from 127.0.0.2:39231 on port 8883.
+1793684836: New connection from 127.0.0.2:44983 on port 8883.
+1793684836: New connection from 127.0.0.2:53733 on port 8883.
+1793684836: New connection from 127.0.0.2:49355 on port 8883.
+1793684836: New connection from 127.0.0.2:42575 on port 8883.
+1793684836: New connection from 127.0.0.2:43303 on port 8883.
+1793684836: New connection from 127.0.0.2:52973 on port 8883.
+1793684836: New connection from 127.0.0.2:60733 on port 8883.
+1793684836: New connection from 127.0.0.2:42481 on port 8883.
+1793684836: New connection from 127.0.0.2:39921 on port 8883.
+1793684836: New connection from 127.0.0.2:32963 on port 8883.
+1793684836: New connection from 127.0.0.2:47733 on port 8883.
+1793684836: New connection from 127.0.0.2:34079 on port 8883.
+1793684836: New connection from 127.0.0.2:51237 on port 8883.
+1793684836: New connection from 127.0.0.2:53149 on port 8883.
+1793684836: New connection from 127.0.0.2:41707 on port 8883.
+1793684836: New connection from 127.0.0.2:45963 on port 8883.
+1793684836: New connection from 127.0.0.2:43001 on port 8883.
+1793684836: New connection from 127.0.0.2:58585 on port 8883.
+1793684836: New connection from 127.0.0.2:56177 on port 8883.
+1793684836: New connection from 127.0.0.2:60345 on port 8883.
+1793684836: New connection from 127.0.0.2:39131 on port 8883.
+1793684836: New connection from 127.0.0.2:43987 on port 8883.
+1793684836: New connection from 127.0.0.2:36355 on port 8883.
+1793684836: New connection from 127.0.0.2:60935 on port 8883.
+1793684836: New connection from 127.0.0.2:44943 on port 8883.
+1793684836: New connection from 127.0.0.2:50613 on port 8883.
+1793684836: New connection from 127.0.0.2:51959 on port 8883.
+1793684836: New connection from 127.0.0.2:55159 on port 8883.
+1793684836: New connection from 127.0.0.2:38543 on port 8883.
+1793684836: New connection from 127.0.0.2:49111 on port 8883.
+1793684836: New connection from 127.0.0.2:56751 on port 8883.
+1793684836: New connection from 127.0.0.2:60157 on port 8883.
+1793684836: New connection from 127.0.0.2:59987 on port 8883.
+1793684836: New connection from 127.0.0.2:34879 on port 8883.
+1793684836: New connection from 127.0.0.2:40493 on port 8883.
+1793684836: New connection from 127.0.0.2:33439 on port 8883.
+1793684836: New connection from 127.0.0.2:55671 on port 8883.
+1793684836: New connection from 127.0.0.2:37615 on port 8883.
+1793684836: New connection from 127.0.0.2:43909 on port 8883.
+1793684836: New connection from 127.0.0.2:42859 on port 8883.
+1793684836: New connection from 127.0.0.2:43979 on port 8883.
+1793684836: New connection from 127.0.0.2:38369 on port 8883.
+1793684836: New connection from 127.0.0.2:34595 on port 8883.
+1793684836: New connection from 127.0.0.2:52981 on port 8883.
+1793684836: New connection from 127.0.0.2:58125 on port 8883.
+1793684836: New connection from 127.0.0.2:47779 on port 8883.
+1793684836: New connection from 127.0.0.2:58349 on port 8883.
+1793684836: New connection from 127.0.0.2:39829 on port 8883.
+1793684836: New connection from 127.0.0.2:46049 on port 8883.
+1793684836: New connection from 127.0.0.2:39289 on port 8883.
+1793684836: New connection from 127.0.0.2:35885 on port 8883.
+1793684836: New connection from 127.0.0.2:35987 on port 8883.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684836: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684837: Client connection from 127.0.0.2 denied: max_connections exceeded.
+1793684866: Client 127.0.0.2 [127.0.0.2:51093] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:51573] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:37269] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:37129] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:54643] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:39779] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:60585] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:55981] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:50011] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:56267] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:46555] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:55331] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:58385] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:60861] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:46613] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:56169] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:54349] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:35089] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:60781] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:55749] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:54487] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:41443] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:37653] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:52705] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:45755] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:57631] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:34713] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:36097] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:57553] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:43895] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:35399] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:45167] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:37233] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:42999] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:49335] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:41289] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:33655] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:41701] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:54089] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:37259] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:35175] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:36833] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:49001] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:35501] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:60807] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:60509] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:59137] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:39231] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:44983] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:53733] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:49355] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:42575] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:43303] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:52973] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:60733] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:42481] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:39921] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:32963] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:47733] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:34079] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:51237] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:53149] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:41707] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:45963] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:43001] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:58585] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:56177] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:60345] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:39131] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:43987] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:36355] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:60935] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:44943] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:50613] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:51959] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:55159] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:38543] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:49111] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:56751] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:60157] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:59987] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:34879] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:40493] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:33439] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:55671] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:37615] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:43909] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:42859] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:43979] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:38369] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:34595] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:52981] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:58125] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:47779] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:58349] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:39829] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:46049] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:39289] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:35885] disconnected: Protocol error.
+1793684866: Client 127.0.0.2 [127.0.0.2:35987] disconnected: Protocol error.

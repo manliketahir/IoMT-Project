@@ -1,0 +1,31 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.pyc
+
+# TLS material. Never versioned; regenerate with each plane's
+# certs/make-certs.sh, which is tracked so a clone stays reproducible.
+*.key
+*.crt
+*.csr
+*.srl
+*.pem
+
+# Raw per-repetition run data: several thousand regenerable CSVs per sweep.
+# Rebuild with the sweep scripts. Aggregated summaries and plots are tracked.
+plane-b/results/e2a/
+plane-b/results/e2b/
+plane-b/results/e2c/
+plane-b/results/e2d/
+plane-b/results/bc/
+plane-c/results/e6a/
+plane-c/results/e6b/
+results_demo/
+
+# Scratch logs from ad-hoc runs
+plane-b/results/*_dbg.log
+plane-b/results/diag.log
+plane-b/results/help.log
+
+# Office lock files
+~$*

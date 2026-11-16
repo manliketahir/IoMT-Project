@@ -1,0 +1,226 @@
+[17:49:18] e2d start: reps=10 duration=60s scale=60 lead=10s
+[17:49:18] 40 cells to run; this log is also at results/e2d_run.log
+[17:49:18] cell  1/40  baseline     rep  1/10  elapsed 0m00s
+[e2d/baseline/s60/r1] broker=mosquitto/baseline.conf port=1883 tls=False attack=False
+  done -> results/e2d/baseline/s60/r1  PDR=1.000 (3600/3600)  connected=60/60
+[17:50:26] cell  2/40  baseline     rep  2/10  elapsed 1m08s
+[e2d/baseline/s60/r2] broker=mosquitto/baseline.conf port=1883 tls=False attack=False
+  done -> results/e2d/baseline/s60/r2  PDR=1.000 (3600/3600)  connected=60/60
+[17:51:34] cell  3/40  baseline     rep  3/10  elapsed 2m16s
+[e2d/baseline/s60/r3] broker=mosquitto/baseline.conf port=1883 tls=False attack=False
+  done -> results/e2d/baseline/s60/r3  PDR=1.000 (3600/3600)  connected=60/60
+[17:52:41] cell  4/40  baseline     rep  4/10  elapsed 3m23s
+[e2d/baseline/s60/r4] broker=mosquitto/baseline.conf port=1883 tls=False attack=False
+  done -> results/e2d/baseline/s60/r4  PDR=1.000 (3600/3600)  connected=60/60
+[17:53:49] cell  5/40  baseline     rep  5/10  elapsed 4m31s
+[e2d/baseline/s60/r5] broker=mosquitto/baseline.conf port=1883 tls=False attack=False
+  done -> results/e2d/baseline/s60/r5  PDR=1.000 (3600/3600)  connected=60/60
+[17:54:57] cell  6/40  baseline     rep  6/10  elapsed 5m39s
+[e2d/baseline/s60/r6] broker=mosquitto/baseline.conf port=1883 tls=False attack=False
+  done -> results/e2d/baseline/s60/r6  PDR=1.000 (3600/3600)  connected=60/60
+[17:56:04] cell  7/40  baseline     rep  7/10  elapsed 6m46s
+[e2d/baseline/s60/r7] broker=mosquitto/baseline.conf port=1883 tls=False attack=False
+  done -> results/e2d/baseline/s60/r7  PDR=1.000 (3600/3600)  connected=60/60
+[17:57:12] cell  8/40  baseline     rep  8/10  elapsed 7m54s
+[e2d/baseline/s60/r8] broker=mosquitto/baseline.conf port=1883 tls=False attack=False
+  done -> results/e2d/baseline/s60/r8  PDR=1.000 (3600/3600)  connected=60/60
+[17:58:20] cell  9/40  baseline     rep  9/10  elapsed 9m02s
+[e2d/baseline/s60/r9] broker=mosquitto/baseline.conf port=1883 tls=False attack=False
+  done -> results/e2d/baseline/s60/r9  PDR=1.000 (3600/3600)  connected=60/60
+[17:59:27] cell 10/40  baseline     rep 10/10  elapsed 10m09s
+[e2d/baseline/s60/r10] broker=mosquitto/baseline.conf port=1883 tls=False attack=False
+  done -> results/e2d/baseline/s60/r10  PDR=1.000 (3600/3600)  connected=60/60
+[18:00:35] cell 11/40  mitig        rep  1/10  elapsed 11m17s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/mitig/s60/r1] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False
+  done -> results/e2d/mitig/s60/r1  PDR=1.000 (3600/3600)  connected=60/60
+[ratelimit] off (port 1883)
+[18:01:43] cell 12/40  mitig        rep  2/10  elapsed 12m25s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/mitig/s60/r2] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False
+  done -> results/e2d/mitig/s60/r2  PDR=1.000 (3600/3600)  connected=60/60
+[ratelimit] off (port 1883)
+[18:02:51] cell 13/40  mitig        rep  3/10  elapsed 13m33s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/mitig/s60/r3] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False
+  done -> results/e2d/mitig/s60/r3  PDR=1.000 (3600/3600)  connected=60/60
+[ratelimit] off (port 1883)
+[18:03:59] cell 14/40  mitig        rep  4/10  elapsed 14m41s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/mitig/s60/r4] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False
+  done -> results/e2d/mitig/s60/r4  PDR=1.000 (3600/3600)  connected=60/60
+[ratelimit] off (port 1883)
+[18:05:07] cell 15/40  mitig        rep  5/10  elapsed 15m49s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/mitig/s60/r5] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False
+  done -> results/e2d/mitig/s60/r5  PDR=1.000 (3600/3600)  connected=60/60
+[ratelimit] off (port 1883)
+[18:06:15] cell 16/40  mitig        rep  6/10  elapsed 16m57s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/mitig/s60/r6] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False
+  done -> results/e2d/mitig/s60/r6  PDR=1.000 (3600/3600)  connected=60/60
+[ratelimit] off (port 1883)
+[18:07:22] cell 17/40  mitig        rep  7/10  elapsed 18m04s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/mitig/s60/r7] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False
+  done -> results/e2d/mitig/s60/r7  PDR=1.000 (3600/3600)  connected=60/60
+[ratelimit] off (port 1883)
+[18:08:30] cell 18/40  mitig        rep  8/10  elapsed 19m12s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/mitig/s60/r8] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False
+  done -> results/e2d/mitig/s60/r8  PDR=1.000 (3600/3600)  connected=60/60
+[ratelimit] off (port 1883)
+[18:09:38] cell 19/40  mitig        rep  9/10  elapsed 20m20s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/mitig/s60/r9] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False
+  done -> results/e2d/mitig/s60/r9  PDR=1.000 (3600/3600)  connected=60/60
+[ratelimit] off (port 1883)
+[18:10:46] cell 20/40  mitig        rep 10/10  elapsed 21m28s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/mitig/s60/r10] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False
+  done -> results/e2d/mitig/s60/r10  PDR=1.000 (3600/3600)  connected=60/60
+[ratelimit] off (port 1883)
+[18:11:54] cell 21/40  attack       rep  1/10  elapsed 22m36s
+[e2d/attack/s60/r1] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=400 refused=0 attempted=400
+  done -> results/e2d/attack/s60/r1  PDR=0.000 (0/3600)  connected=0/60
+[18:13:11] cell 22/40  attack       rep  2/10  elapsed 23m53s
+[e2d/attack/s60/r2] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=400 refused=0 attempted=400
+  done -> results/e2d/attack/s60/r2  PDR=0.000 (0/3600)  connected=0/60
+[18:14:29] cell 23/40  attack       rep  3/10  elapsed 25m11s
+[e2d/attack/s60/r3] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=400 refused=0 attempted=400
+  done -> results/e2d/attack/s60/r3  PDR=0.000 (0/3600)  connected=1/60
+[18:15:46] cell 24/40  attack       rep  4/10  elapsed 26m28s
+[e2d/attack/s60/r4] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=400 refused=0 attempted=400
+  done -> results/e2d/attack/s60/r4  PDR=0.000 (0/3600)  connected=1/60
+[18:17:04] cell 25/40  attack       rep  5/10  elapsed 27m46s
+[e2d/attack/s60/r5] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=400 refused=0 attempted=400
+  done -> results/e2d/attack/s60/r5  PDR=0.000 (0/3600)  connected=0/60
+[18:18:21] cell 26/40  attack       rep  6/10  elapsed 29m03s
+[e2d/attack/s60/r6] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=400 refused=0 attempted=400
+  done -> results/e2d/attack/s60/r6  PDR=0.000 (0/3600)  connected=0/60
+[18:19:39] cell 27/40  attack       rep  7/10  elapsed 30m21s
+[e2d/attack/s60/r7] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=400 refused=0 attempted=400
+  done -> results/e2d/attack/s60/r7  PDR=0.000 (0/3600)  connected=0/60
+[18:20:57] cell 28/40  attack       rep  8/10  elapsed 31m39s
+[e2d/attack/s60/r8] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=400 refused=0 attempted=400
+  done -> results/e2d/attack/s60/r8  PDR=0.000 (0/3600)  connected=0/60
+[18:22:14] cell 29/40  attack       rep  9/10  elapsed 32m56s
+[e2d/attack/s60/r9] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=400 refused=0 attempted=400
+  done -> results/e2d/attack/s60/r9  PDR=0.000 (0/3600)  connected=0/60
+[18:23:32] cell 30/40  attack       rep 10/10  elapsed 34m14s
+[e2d/attack/s60/r10] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=400 refused=0 attempted=400
+  done -> results/e2d/attack/s60/r10  PDR=0.000 (0/3600)  connected=0/60
+[18:24:49] cell 31/40  attack_mitig rep  1/10  elapsed 35m31s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/attack_mitig/s60/r1] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=337 refused=63 attempted=400
+  done -> results/e2d/attack_mitig/s60/r1  PDR=0.633 (2280/3600)  connected=38/60
+[ratelimit] off (port 1883)
+[18:26:07] cell 32/40  attack_mitig rep  2/10  elapsed 36m49s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/attack_mitig/s60/r2] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=336 refused=64 attempted=400
+  done -> results/e2d/attack_mitig/s60/r2  PDR=0.633 (2280/3600)  connected=38/60
+[ratelimit] off (port 1883)
+[18:27:25] cell 33/40  attack_mitig rep  3/10  elapsed 38m07s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/attack_mitig/s60/r3] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=337 refused=63 attempted=400
+  done -> results/e2d/attack_mitig/s60/r3  PDR=0.633 (2280/3600)  connected=38/60
+[ratelimit] off (port 1883)
+[18:28:43] cell 34/40  attack_mitig rep  4/10  elapsed 39m25s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/attack_mitig/s60/r4] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=336 refused=64 attempted=400
+  done -> results/e2d/attack_mitig/s60/r4  PDR=0.633 (2280/3600)  connected=38/60
+[ratelimit] off (port 1883)
+[18:30:01] cell 35/40  attack_mitig rep  5/10  elapsed 40m43s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/attack_mitig/s60/r5] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=336 refused=64 attempted=400
+  done -> results/e2d/attack_mitig/s60/r5  PDR=0.633 (2280/3600)  connected=38/60
+[ratelimit] off (port 1883)
+[18:31:18] cell 36/40  attack_mitig rep  6/10  elapsed 42m00s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/attack_mitig/s60/r6] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=339 refused=61 attempted=400
+  done -> results/e2d/attack_mitig/s60/r6  PDR=0.633 (2280/3600)  connected=40/60
+[ratelimit] off (port 1883)
+[18:32:36] cell 37/40  attack_mitig rep  7/10  elapsed 43m18s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/attack_mitig/s60/r7] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=336 refused=64 attempted=400
+  done -> results/e2d/attack_mitig/s60/r7  PDR=0.633 (2280/3600)  connected=38/60
+[ratelimit] off (port 1883)
+[18:33:54] cell 38/40  attack_mitig rep  8/10  elapsed 44m36s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/attack_mitig/s60/r8] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=336 refused=64 attempted=400
+  done -> results/e2d/attack_mitig/s60/r8  PDR=0.633 (2280/3600)  connected=38/60
+[ratelimit] off (port 1883)
+[18:35:12] cell 39/40  attack_mitig rep  9/10  elapsed 45m54s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/attack_mitig/s60/r9] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=340 refused=60 attempted=400
+  done -> results/e2d/attack_mitig/s60/r9  PDR=0.633 (2280/3600)  connected=39/60
+[ratelimit] off (port 1883)
+[18:36:30] cell 40/40  attack_mitig rep 10/10  elapsed 47m12s
+[ratelimit] on via nft (port 1883; > 5/second per source is dropped)
+[e2d/attack_mitig/s60/r10] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True
+conn-exhaust: established=336 refused=64 attempted=400
+  done -> results/e2d/attack_mitig/s60/r10  PDR=0.650 (2340/3600)  connected=40/60
+[ratelimit] off (port 1883)
+[18:37:47] all 40 cells done in 48 min
+############ ANALYZE ############
+[e2a s10] mitigation latency cost (baseline vs mitig): p=0.9097
+[e2a s10] mitigation efficacy on PDR (attack vs attack_mitig): p=nan
+[e2a s30] mitigation latency cost (baseline vs mitig): p=0.01906
+[e2a s30] mitigation efficacy on PDR (attack vs attack_mitig): p=nan
+[e2a s60] mitigation latency cost (baseline vs mitig): p=0.0003281
+[e2a s60] mitigation efficacy on PDR (attack vs attack_mitig): p=nan
+[e2b s10] mitigation latency cost (baseline vs mitig): p=0.04515
+[e2b s10] mitigation efficacy on PDR (attack vs attack_mitig): p=nan
+[e2b s30] mitigation latency cost (baseline vs mitig): p=0.002817
+[e2b s30] mitigation efficacy on PDR (attack vs attack_mitig): p=nan
+[e2b s60] mitigation latency cost (baseline vs mitig): p=0.009108
+[e2b s60] mitigation efficacy on PDR (attack vs attack_mitig): p=nan
+[e2c s10] mitigation latency cost (baseline vs mitig): p=0.4725
+[e2c s10] mitigation efficacy on PDR (attack vs attack_mitig): p=nan
+[e2c s30] mitigation latency cost (baseline vs mitig): p=0.0001827
+[e2c s30] mitigation efficacy on PDR (attack vs attack_mitig): p=nan
+[e2c s60] mitigation latency cost (baseline vs mitig): p=0.0001817
+[e2c s60] mitigation efficacy on PDR (attack vs attack_mitig): p=nan
+[e2d s30] mitigation latency cost (baseline vs mitig): p=nan
+[e2d s30] mitigation efficacy on PDR (attack vs attack_mitig): p=nan
+[e2d s60] mitigation latency cost (baseline vs mitig): p=1
+[e2d s60] mitigation efficacy on PDR (attack vs attack_mitig): p=2.428e-05
+[*] wrote results/summary.csv (44 rows)
+[*] wrote results/e2a_summary.png
+[*] wrote results/e2b_summary.png
+[*] wrote results/e2c_summary.png
+/mnt/c/Uni/KSU CoEIA/testbed/plane-b/analyze.py:166: RuntimeWarning: All-NaN slice encountered
+  pdr = [np.nanmedian(series.get((exp, s, c, "pdr"), [np.nan])) for c in CONDITIONS]
+/mnt/c/Uni/KSU CoEIA/testbed/plane-b/analyze.py:167: RuntimeWarning: All-NaN slice encountered
+  lat = [np.nanmedian(series.get((exp, s, c, "lat_ms"), [np.nan])) for c in CONDITIONS]
+[*] wrote results/e2d_summary.png
+############ E2D ROWS ############
+exp,condition,scale,reps,pdr_med,pdr_lo,pdr_hi,lat_ms_med,lat_lo,lat_hi,cpu_med,attack
+e2d,baseline,30,1,1.0,1.0,1.0,0.35,0.35,0.35,0.37,
+e2d,baseline,60,10,1.0,1.0,1.0,0.37,0.36,0.37,0.84,
+e2d,mitig,30,1,1.0,1.0,1.0,0.39,0.39,0.39,0.41,
+e2d,mitig,60,10,1.0,1.0,1.0,0.37,0.35,0.38,0.86,
+e2d,attack,30,1,1.0,1.0,1.0,7997.1,7997.1,7997.1,0.32,"400,0,400"
+e2d,attack,60,10,0.0,0.0,0.0,nan,nan,nan,0.16,"400,0,400"
+e2d,attack_mitig,30,1,1.0,1.0,1.0,0.35,0.35,0.35,0.34,"132,24,156"
+e2d,attack_mitig,60,10,0.6333,0.6333,0.6333,0.37,0.36,0.37,0.58,"337,63,400"
+E2D-DONE (log: results/e2d_run.log)
