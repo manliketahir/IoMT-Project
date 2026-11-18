@@ -1,0 +1,17 @@
+[e2a s10] mitigation latency cost (baseline vs mitig): p=0.03121
+[e2a s10] mitigation efficacy on PDR (attack vs attack_mitig): p=nan
+[e2b s10] mitigation latency cost (baseline vs mitig): p=0.0001827
+[e2b s10] mitigation efficacy on PDR (attack vs attack_mitig): p=nan
+[*] wrote results-gns3/summary.csv (8 rows)
+[*] wrote results-gns3/e2a_summary.png
+[*] wrote results-gns3/e2b_summary.png
+[*] wrote results-gns3/e2c_summary.png
+[*] wrote results-gns3/e2d_summary.png
+/mnt/c/Uni/KSU CoEIA/testbed/plane-b/analyze.py:169: RuntimeWarning: All-NaN slice encountered
+  pdr = [np.nanmedian(series.get((exp, s, c, "pdr"), [np.nan])) for c in CONDITIONS]
+/mnt/c/Uni/KSU CoEIA/testbed/plane-b/analyze.py:170: RuntimeWarning: All-NaN slice encountered
+  lat = [np.nanmedian(series.get((exp, s, c, "lat_ms"), [np.nan])) for c in CONDITIONS]
+/mnt/c/Uni/KSU CoEIA/testbed/plane-b/analyze.py:169: RuntimeWarning: All-NaN slice encountered
+  pdr = [np.nanmedian(series.get((exp, s, c, "pdr"), [np.nan])) for c in CONDITIONS]
+/mnt/c/Uni/KSU CoEIA/testbed/plane-b/analyze.py:170: RuntimeWarning: All-NaN slice encountered
+  lat = [np.nanmedian(series.get((exp, s, c, "lat_ms"), [np.nan])) for c in CONDITIONS]

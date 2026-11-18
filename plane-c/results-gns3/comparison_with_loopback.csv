@@ -1,0 +1,9 @@
+exp,condition,gns3_scale,loopback_scale,pdr_gns3,pdr_loopback,ack_ms_med_gns3_measured,ack_ms_med_gns3_real,ack_ms_med_loopback
+e6a,baseline,10,30,1.0,1.0,0.406,0.451,0.186
+e6a,mitig,10,30,1.0,1.0,0.499,0.554,0.237
+e6a,attack,10,30,1.0,1.0,0.429,0.477,0.188
+e6a,attack_mitig,10,30,1.0,1.0,0.514,0.571,0.239
+e6b,baseline,10,30,1.0,1.0,0.771,0.857,0.435
+e6b,mitig,10,30,1.0,1.0,0.777,0.863,0.435
+e6b,attack,10,30,0.0,0.0,nan,nan,nan
+e6b,attack_mitig,10,30,1.0,1.0,0.785,0.872,0.416

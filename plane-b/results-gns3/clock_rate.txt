@@ -1,0 +1,7 @@
+guest_clock_rate=0.90000
+per_interval_min=0.89987
+per_interval_max=0.90013
+samples=34
+span_s=9042
+wsl_vs_windows_rate=1.000002
+correction: real_latency = measured_latency / guest_clock_rate

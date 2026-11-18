@@ -1,0 +1,6 @@
+[e6a s10] mitigation ACK-latency cost (baseline vs mitig): p=0.0001817
+[e6a s10] mitigation efficacy on gateway PDR (attack vs attack_mitig): p=nan
+[e6a s10] forged acceptance attack=1.000 attack_mitig=0.000
+[e6b s10] mitigation ACK-latency cost (baseline vs mitig): p=0.1733
+[e6b s10] mitigation efficacy on gateway PDR (attack vs attack_mitig): p=1.594e-05
+[*] wrote results-gns3/e6_summary.csv (8 rows)
