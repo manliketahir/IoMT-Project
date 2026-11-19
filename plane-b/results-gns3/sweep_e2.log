@@ -1,0 +1,406 @@
+[sweep] start 2026-11-18T20:46:12+00:00  exps=e2a e2b  reps=10  dur=60s  cells=80
+=== [1/80] e2a / baseline / r1  (attempt 1) 20:46:12 ===
+[e2a/baseline/s10/r1] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2a/baseline/s10/r1  PDR=1.000 (600/600) connected=10/10
+=== [2/80] e2a / baseline / r2  (attempt 1) 20:47:24 ===
+[e2a/baseline/s10/r2] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2a/baseline/s10/r2  PDR=1.000 (600/600) connected=10/10
+=== [3/80] e2a / baseline / r3  (attempt 1) 20:48:35 ===
+[e2a/baseline/s10/r3] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2a/baseline/s10/r3  PDR=1.000 (600/600) connected=10/10
+=== [4/80] e2a / baseline / r4  (attempt 1) 20:49:47 ===
+[e2a/baseline/s10/r4] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2a/baseline/s10/r4  PDR=1.000 (600/600) connected=10/10
+=== [5/80] e2a / baseline / r5  (attempt 1) 20:50:59 ===
+[e2a/baseline/s10/r5] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2a/baseline/s10/r5  PDR=1.000 (600/600) connected=10/10
+=== [6/80] e2a / baseline / r6  (attempt 1) 20:52:10 ===
+[e2a/baseline/s10/r6] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2a/baseline/s10/r6  PDR=1.000 (600/600) connected=10/10
+=== [7/80] e2a / baseline / r7  (attempt 1) 20:53:22 ===
+[e2a/baseline/s10/r7] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2a/baseline/s10/r7  PDR=1.000 (600/600) connected=10/10
+=== [8/80] e2a / baseline / r8  (attempt 1) 20:54:34 ===
+[e2a/baseline/s10/r8] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2a/baseline/s10/r8  PDR=1.000 (600/600) connected=10/10
+=== [9/80] e2a / baseline / r9  (attempt 1) 20:55:46 ===
+[e2a/baseline/s10/r9] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2a/baseline/s10/r9  PDR=1.000 (600/600) connected=10/10
+=== [10/80] e2a / baseline / r10  (attempt 1) 20:56:57 ===
+[e2a/baseline/s10/r10] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2a/baseline/s10/r10  PDR=1.000 (600/600) connected=10/10
+=== [11/80] e2a / mitig / r1  (attempt 1) 20:58:09 ===
+[e2a/mitig/s10/r1] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/mitig/s10/r1  PDR=1.000 (600/600) connected=10/10
+=== [12/80] e2a / mitig / r2  (attempt 1) 20:59:21 ===
+[e2a/mitig/s10/r2] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/mitig/s10/r2  PDR=1.000 (600/600) connected=10/10
+=== [13/80] e2a / mitig / r3  (attempt 1) 21:00:33 ===
+[e2a/mitig/s10/r3] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/mitig/s10/r3  PDR=1.000 (600/600) connected=10/10
+=== [14/80] e2a / mitig / r4  (attempt 1) 21:01:45 ===
+[e2a/mitig/s10/r4] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/mitig/s10/r4  PDR=1.000 (600/600) connected=10/10
+=== [15/80] e2a / mitig / r5  (attempt 1) 21:02:56 ===
+[e2a/mitig/s10/r5] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/mitig/s10/r5  PDR=1.000 (600/600) connected=10/10
+=== [16/80] e2a / mitig / r6  (attempt 1) 21:04:08 ===
+[e2a/mitig/s10/r6] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/mitig/s10/r6  PDR=1.000 (600/600) connected=10/10
+=== [17/80] e2a / mitig / r7  (attempt 1) 21:05:20 ===
+[e2a/mitig/s10/r7] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/mitig/s10/r7  PDR=1.000 (600/600) connected=10/10
+=== [18/80] e2a / mitig / r8  (attempt 1) 21:06:32 ===
+[e2a/mitig/s10/r8] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/mitig/s10/r8  PDR=1.000 (600/600) connected=10/10
+=== [19/80] e2a / mitig / r9  (attempt 1) 21:07:44 ===
+[e2a/mitig/s10/r9] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/mitig/s10/r9  PDR=1.000 (600/600) connected=10/10
+=== [20/80] e2a / mitig / r10  (attempt 1) 21:08:56 ===
+[e2a/mitig/s10/r10] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=False mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/mitig/s10/r10  PDR=1.000 (600/600) connected=10/10
+=== [21/80] e2a / attack / r1  (attempt 1) 21:10:08 ===
+[e2a/attack/s10/r1] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2a/attack/s10/r1  PDR=1.000 (600/600) connected=10/10
+=== [22/80] e2a / attack / r2  (attempt 1) 21:11:20 ===
+[e2a/attack/s10/r2] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2a/attack/s10/r2  PDR=1.000 (600/600) connected=10/10
+=== [23/80] e2a / attack / r3  (attempt 1) 21:12:32 ===
+[e2a/attack/s10/r3] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2a/attack/s10/r3  PDR=1.000 (600/600) connected=10/10
+=== [24/80] e2a / attack / r4  (attempt 1) 21:13:45 ===
+[e2a/attack/s10/r4] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2a/attack/s10/r4  PDR=1.000 (600/600) connected=10/10
+=== [25/80] e2a / attack / r5  (attempt 1) 21:14:57 ===
+[e2a/attack/s10/r5] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2a/attack/s10/r5  PDR=1.000 (600/600) connected=10/10
+=== [26/80] e2a / attack / r6  (attempt 1) 21:16:10 ===
+[e2a/attack/s10/r6] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2a/attack/s10/r6  PDR=1.000 (600/600) connected=10/10
+=== [27/80] e2a / attack / r7  (attempt 1) 21:17:22 ===
+[e2a/attack/s10/r7] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2a/attack/s10/r7  PDR=1.000 (600/600) connected=10/10
+=== [28/80] e2a / attack / r8  (attempt 1) 21:18:35 ===
+[e2a/attack/s10/r8] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2a/attack/s10/r8  PDR=1.000 (600/600) connected=10/10
+=== [29/80] e2a / attack / r9  (attempt 1) 21:19:47 ===
+[e2a/attack/s10/r9] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2a/attack/s10/r9  PDR=1.000 (600/600) connected=10/10
+=== [30/80] e2a / attack / r10  (attempt 1) 21:20:59 ===
+[e2a/attack/s10/r10] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2a/attack/s10/r10  PDR=1.000 (600/600) connected=10/10
+=== [31/80] e2a / attack_mitig / r1  (attempt 1) 21:22:12 ===
+[e2a/attack_mitig/s10/r1] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/attack_mitig/s10/r1  PDR=1.000 (600/600) connected=10/10
+=== [32/80] e2a / attack_mitig / r2  (attempt 1) 21:23:24 ===
+[e2a/attack_mitig/s10/r2] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/attack_mitig/s10/r2  PDR=1.000 (600/600) connected=10/10
+=== [33/80] e2a / attack_mitig / r3  (attempt 1) 21:24:36 ===
+[e2a/attack_mitig/s10/r3] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/attack_mitig/s10/r3  PDR=1.000 (600/600) connected=10/10
+=== [34/80] e2a / attack_mitig / r4  (attempt 1) 21:25:49 ===
+[e2a/attack_mitig/s10/r4] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/attack_mitig/s10/r4  PDR=1.000 (600/600) connected=10/10
+=== [35/80] e2a / attack_mitig / r5  (attempt 1) 21:27:01 ===
+[e2a/attack_mitig/s10/r5] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/attack_mitig/s10/r5  PDR=1.000 (600/600) connected=10/10
+=== [36/80] e2a / attack_mitig / r6  (attempt 1) 21:28:13 ===
+[e2a/attack_mitig/s10/r6] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/attack_mitig/s10/r6  PDR=1.000 (600/600) connected=10/10
+=== [37/80] e2a / attack_mitig / r7  (attempt 1) 21:29:26 ===
+[e2a/attack_mitig/s10/r7] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/attack_mitig/s10/r7  PDR=1.000 (600/600) connected=10/10
+=== [38/80] e2a / attack_mitig / r8  (attempt 1) 21:30:38 ===
+[e2a/attack_mitig/s10/r8] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/attack_mitig/s10/r8  PDR=1.000 (600/600) connected=10/10
+=== [39/80] e2a / attack_mitig / r9  (attempt 1) 21:31:51 ===
+[e2a/attack_mitig/s10/r9] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/attack_mitig/s10/r9  PDR=1.000 (600/600) connected=10/10
+=== [40/80] e2a / attack_mitig / r10  (attempt 1) 21:33:03 ===
+[e2a/attack_mitig/s10/r10] broker=mosquitto/e2a_mitig.conf port=1883 tls=False attack=True mitig=True
+  [ratelimit] ['RATELIMIT_ON']
+  [ratelimit] ['RATELIMIT_OFF']
+  done -> results/e2a/attack_mitig/s10/r10  PDR=1.000 (600/600) connected=10/10
+=== [41/80] e2b / baseline / r1  (attempt 1) 21:34:15 ===
+[e2b/baseline/s10/r1] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2b/baseline/s10/r1  PDR=1.000 (600/600) connected=10/10
+=== [42/80] e2b / baseline / r2  (attempt 1) 21:35:27 ===
+[e2b/baseline/s10/r2] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2b/baseline/s10/r2  PDR=1.000 (600/600) connected=10/10
+=== [43/80] e2b / baseline / r3  (attempt 1) 21:36:39 ===
+[e2b/baseline/s10/r3] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2b/baseline/s10/r3  PDR=1.000 (600/600) connected=10/10
+=== [44/80] e2b / baseline / r4  (attempt 1) 21:37:50 ===
+[e2b/baseline/s10/r4] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2b/baseline/s10/r4  PDR=1.000 (600/600) connected=10/10
+=== [45/80] e2b / baseline / r5  (attempt 1) 21:39:02 ===
+[e2b/baseline/s10/r5] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2b/baseline/s10/r5  PDR=1.000 (600/600) connected=10/10
+=== [46/80] e2b / baseline / r6  (attempt 1) 21:40:14 ===
+[e2b/baseline/s10/r6] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2b/baseline/s10/r6  PDR=1.000 (600/600) connected=10/10
+=== [47/80] e2b / baseline / r7  (attempt 1) 21:41:25 ===
+[e2b/baseline/s10/r7] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2b/baseline/s10/r7  PDR=1.000 (600/600) connected=10/10
+=== [48/80] e2b / baseline / r8  (attempt 1) 21:42:37 ===
+[e2b/baseline/s10/r8] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2b/baseline/s10/r8  PDR=1.000 (600/600) connected=10/10
+=== [49/80] e2b / baseline / r9  (attempt 1) 21:43:49 ===
+[e2b/baseline/s10/r9] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2b/baseline/s10/r9  PDR=1.000 (600/600) connected=10/10
+=== [50/80] e2b / baseline / r10  (attempt 1) 21:45:00 ===
+[e2b/baseline/s10/r10] broker=mosquitto/baseline.conf port=1883 tls=False attack=False mitig=False
+  done -> results/e2b/baseline/s10/r10  PDR=1.000 (600/600) connected=10/10
+=== [51/80] e2b / mitig / r1  (attempt 1) 21:46:12 ===
+[e2b/mitig/s10/r1] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=False mitig=True
+  done -> results/e2b/mitig/s10/r1  PDR=1.000 (600/600) connected=10/10
+=== [52/80] e2b / mitig / r2  (attempt 1) 21:47:24 ===
+[e2b/mitig/s10/r2] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=False mitig=True
+  done -> results/e2b/mitig/s10/r2  PDR=1.000 (600/600) connected=10/10
+=== [53/80] e2b / mitig / r3  (attempt 1) 21:48:35 ===
+[e2b/mitig/s10/r3] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=False mitig=True
+  done -> results/e2b/mitig/s10/r3  PDR=1.000 (600/600) connected=10/10
+=== [54/80] e2b / mitig / r4  (attempt 1) 21:49:47 ===
+[e2b/mitig/s10/r4] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=False mitig=True
+  done -> results/e2b/mitig/s10/r4  PDR=1.000 (600/600) connected=10/10
+=== [55/80] e2b / mitig / r5  (attempt 1) 21:50:59 ===
+[e2b/mitig/s10/r5] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=False mitig=True
+  done -> results/e2b/mitig/s10/r5  PDR=1.000 (600/600) connected=10/10
+=== [56/80] e2b / mitig / r6  (attempt 1) 21:52:10 ===
+[e2b/mitig/s10/r6] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=False mitig=True
+  done -> results/e2b/mitig/s10/r6  PDR=1.000 (600/600) connected=10/10
+=== [57/80] e2b / mitig / r7  (attempt 1) 21:53:22 ===
+[e2b/mitig/s10/r7] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=False mitig=True
+  done -> results/e2b/mitig/s10/r7  PDR=1.000 (600/600) connected=10/10
+=== [58/80] e2b / mitig / r8  (attempt 1) 21:54:34 ===
+[e2b/mitig/s10/r8] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=False mitig=True
+  done -> results/e2b/mitig/s10/r8  PDR=1.000 (600/600) connected=10/10
+=== [59/80] e2b / mitig / r9  (attempt 1) 21:55:46 ===
+[e2b/mitig/s10/r9] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=False mitig=True
+  done -> results/e2b/mitig/s10/r9  PDR=1.000 (600/600) connected=10/10
+=== [60/80] e2b / mitig / r10  (attempt 1) 21:56:57 ===
+[e2b/mitig/s10/r10] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=False mitig=True
+  done -> results/e2b/mitig/s10/r10  PDR=1.000 (600/600) connected=10/10
+=== [61/80] e2b / attack / r1  (attempt 1) 21:58:09 ===
+[e2b/attack/s10/r1] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2b/attack/s10/r1  PDR=1.000 (600/600) connected=10/10
+=== [62/80] e2b / attack / r2  (attempt 1) 21:59:21 ===
+[e2b/attack/s10/r2] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2b/attack/s10/r2  PDR=1.000 (600/600) connected=10/10
+=== [63/80] e2b / attack / r3  (attempt 1) 22:00:34 ===
+[e2b/attack/s10/r3] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2b/attack/s10/r3  PDR=1.000 (600/600) connected=10/10
+=== [64/80] e2b / attack / r4  (attempt 1) 22:01:46 ===
+[e2b/attack/s10/r4] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2b/attack/s10/r4  PDR=1.000 (600/600) connected=10/10
+=== [65/80] e2b / attack / r5  (attempt 1) 22:02:59 ===
+[e2b/attack/s10/r5] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2b/attack/s10/r5  PDR=1.000 (600/600) connected=10/10
+=== [66/80] e2b / attack / r6  (attempt 1) 22:04:11 ===
+[e2b/attack/s10/r6] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2b/attack/s10/r6  PDR=1.000 (600/600) connected=10/10
+=== [67/80] e2b / attack / r7  (attempt 1) 22:05:24 ===
+[e2b/attack/s10/r7] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2b/attack/s10/r7  PDR=1.000 (600/600) connected=10/10
+=== [68/80] e2b / attack / r8  (attempt 1) 22:06:36 ===
+[e2b/attack/s10/r8] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2b/attack/s10/r8  PDR=1.000 (600/600) connected=10/10
+=== [69/80] e2b / attack / r9  (attempt 1) 22:07:49 ===
+[e2b/attack/s10/r9] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2b/attack/s10/r9  PDR=1.000 (600/600) connected=10/10
+=== [70/80] e2b / attack / r10  (attempt 1) 22:09:01 ===
+[e2b/attack/s10/r10] broker=mosquitto/baseline.conf port=1883 tls=False attack=True mitig=False
+  done -> results/e2b/attack/s10/r10  PDR=1.000 (600/600) connected=10/10
+=== [71/80] e2b / attack_mitig / r1  (attempt 1) 22:10:13 ===
+[e2b/attack_mitig/s10/r1] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r1  PDR=1.000 (600/600) connected=10/10
+=== [72/80] e2b / attack_mitig / r2  (attempt 1) 22:11:26 ===
+[e2b/attack_mitig/s10/r2] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r2  PDR=1.000 (600/600) connected=10/10
+=== [73/80] e2b / attack_mitig / r3  (attempt 1) 22:12:38 ===
+[e2b/attack_mitig/s10/r3] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r3  PDR=1.000 (600/600) connected=10/10
+=== [74/80] e2b / attack_mitig / r4  (attempt 1) 22:13:50 ===
+[e2b/attack_mitig/s10/r4] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r4  PDR=1.000 (600/600) connected=10/10
+=== [75/80] e2b / attack_mitig / r5  (attempt 1) 22:15:02 ===
+[e2b/attack_mitig/s10/r5] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r5  PDR=1.000 (600/600) connected=10/10
+=== [76/80] e2b / attack_mitig / r6  (attempt 1) 22:16:15 ===
+[e2b/attack_mitig/s10/r6] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r6  PDR=1.000 (600/600) connected=10/10
+=== [77/80] e2b / attack_mitig / r7  (attempt 1) 22:17:27 ===
+[e2b/attack_mitig/s10/r7] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r7  PDR=1.000 (600/600) connected=10/10
+=== [78/80] e2b / attack_mitig / r8  (attempt 1) 22:18:39 ===
+[e2b/attack_mitig/s10/r8] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r8  PDR=1.000 (600/600) connected=10/10
+=== [79/80] e2b / attack_mitig / r9  (attempt 1) 22:19:51 ===
+[e2b/attack_mitig/s10/r9] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r9  PDR=1.000 (600/600) connected=10/10
+=== [80/80] e2b / attack_mitig / r10  (attempt 1) 22:21:04 ===
+[e2b/attack_mitig/s10/r10] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r10  PDR=1.000 (600/600) connected=10/10
+[sweep] COMPLETE 2026-11-18T22:22:16+00:00  valid cells under results/: 80
+[sweep] start 2026-11-18T22:31:03+00:00  exps=e2b  reps=10  dur=60s  cells=40
+=== [1/40] e2b / baseline / r1 : already DONE, skipping ===
+=== [2/40] e2b / baseline / r2 : already DONE, skipping ===
+=== [3/40] e2b / baseline / r3 : already DONE, skipping ===
+=== [4/40] e2b / baseline / r4 : already DONE, skipping ===
+=== [5/40] e2b / baseline / r5 : already DONE, skipping ===
+=== [6/40] e2b / baseline / r6 : already DONE, skipping ===
+=== [7/40] e2b / baseline / r7 : already DONE, skipping ===
+=== [8/40] e2b / baseline / r8 : already DONE, skipping ===
+=== [9/40] e2b / baseline / r9 : already DONE, skipping ===
+=== [10/40] e2b / baseline / r10 : already DONE, skipping ===
+=== [11/40] e2b / mitig / r1 : already DONE, skipping ===
+=== [12/40] e2b / mitig / r2 : already DONE, skipping ===
+=== [13/40] e2b / mitig / r3 : already DONE, skipping ===
+=== [14/40] e2b / mitig / r4 : already DONE, skipping ===
+=== [15/40] e2b / mitig / r5 : already DONE, skipping ===
+=== [16/40] e2b / mitig / r6 : already DONE, skipping ===
+=== [17/40] e2b / mitig / r7 : already DONE, skipping ===
+=== [18/40] e2b / mitig / r8 : already DONE, skipping ===
+=== [19/40] e2b / mitig / r9 : already DONE, skipping ===
+=== [20/40] e2b / mitig / r10 : already DONE, skipping ===
+=== [21/40] e2b / attack / r1 : already DONE, skipping ===
+=== [22/40] e2b / attack / r2 : already DONE, skipping ===
+=== [23/40] e2b / attack / r3 : already DONE, skipping ===
+=== [24/40] e2b / attack / r4 : already DONE, skipping ===
+=== [25/40] e2b / attack / r5 : already DONE, skipping ===
+=== [26/40] e2b / attack / r6 : already DONE, skipping ===
+=== [27/40] e2b / attack / r7 : already DONE, skipping ===
+=== [28/40] e2b / attack / r8 : already DONE, skipping ===
+=== [29/40] e2b / attack / r9 : already DONE, skipping ===
+=== [30/40] e2b / attack / r10 : already DONE, skipping ===
+=== [31/40] e2b / attack_mitig / r1  (attempt 1) 22:31:03 ===
+[e2b/attack_mitig/s10/r1] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r1  PDR=1.000 (600/600) connected=10/10
+=== [32/40] e2b / attack_mitig / r2  (attempt 1) 22:32:15 ===
+[e2b/attack_mitig/s10/r2] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r2  PDR=1.000 (600/600) connected=10/10
+=== [33/40] e2b / attack_mitig / r3  (attempt 1) 22:33:28 ===
+[e2b/attack_mitig/s10/r3] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r3  PDR=1.000 (600/600) connected=10/10
+=== [34/40] e2b / attack_mitig / r4  (attempt 1) 22:34:40 ===
+[e2b/attack_mitig/s10/r4] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r4  PDR=1.000 (600/600) connected=10/10
+=== [35/40] e2b / attack_mitig / r5  (attempt 1) 22:35:52 ===
+[e2b/attack_mitig/s10/r5] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r5  PDR=1.000 (600/600) connected=10/10
+=== [36/40] e2b / attack_mitig / r6  (attempt 1) 22:37:04 ===
+[e2b/attack_mitig/s10/r6] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r6  PDR=1.000 (600/600) connected=10/10
+=== [37/40] e2b / attack_mitig / r7  (attempt 1) 22:38:17 ===
+[e2b/attack_mitig/s10/r7] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r7  PDR=1.000 (600/600) connected=10/10
+=== [38/40] e2b / attack_mitig / r8  (attempt 1) 22:39:29 ===
+[e2b/attack_mitig/s10/r8] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r8  PDR=1.000 (600/600) connected=10/10
+=== [39/40] e2b / attack_mitig / r9  (attempt 1) 22:40:41 ===
+[e2b/attack_mitig/s10/r9] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r9  PDR=1.000 (600/600) connected=10/10
+=== [40/40] e2b / attack_mitig / r10  (attempt 1) 22:41:53 ===
+[e2b/attack_mitig/s10/r10] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r10  PDR=1.000 (600/600) connected=10/10
+[sweep] COMPLETE 2026-11-18T22:43:06+00:00  valid cells under results/: 80
+[sweep] start 2026-11-18T22:48:17+00:00  exps=e2b  reps=10  dur=60s  cells=40
+=== [1/40] e2b / baseline / r1 : already DONE, skipping ===
+=== [2/40] e2b / baseline / r2 : already DONE, skipping ===
+=== [3/40] e2b / baseline / r3 : already DONE, skipping ===
+=== [4/40] e2b / baseline / r4 : already DONE, skipping ===
+=== [5/40] e2b / baseline / r5 : already DONE, skipping ===
+=== [6/40] e2b / baseline / r6 : already DONE, skipping ===
+=== [7/40] e2b / baseline / r7 : already DONE, skipping ===
+=== [8/40] e2b / baseline / r8 : already DONE, skipping ===
+=== [9/40] e2b / baseline / r9 : already DONE, skipping ===
+=== [10/40] e2b / baseline / r10 : already DONE, skipping ===
+=== [11/40] e2b / mitig / r1 : already DONE, skipping ===
+=== [12/40] e2b / mitig / r2 : already DONE, skipping ===
+=== [13/40] e2b / mitig / r3 : already DONE, skipping ===
+=== [14/40] e2b / mitig / r4 : already DONE, skipping ===
+=== [15/40] e2b / mitig / r5 : already DONE, skipping ===
+=== [16/40] e2b / mitig / r6 : already DONE, skipping ===
+=== [17/40] e2b / mitig / r7 : already DONE, skipping ===
+=== [18/40] e2b / mitig / r8 : already DONE, skipping ===
+=== [19/40] e2b / mitig / r9 : already DONE, skipping ===
+=== [20/40] e2b / mitig / r10 : already DONE, skipping ===
+=== [21/40] e2b / attack / r1 : already DONE, skipping ===
+=== [22/40] e2b / attack / r2 : already DONE, skipping ===
+=== [23/40] e2b / attack / r3 : already DONE, skipping ===
+=== [24/40] e2b / attack / r4 : already DONE, skipping ===
+=== [25/40] e2b / attack / r5 : already DONE, skipping ===
+=== [26/40] e2b / attack / r6 : already DONE, skipping ===
+=== [27/40] e2b / attack / r7 : already DONE, skipping ===
+=== [28/40] e2b / attack / r8 : already DONE, skipping ===
+=== [29/40] e2b / attack / r9 : already DONE, skipping ===
+=== [30/40] e2b / attack / r10 : already DONE, skipping ===
+=== [31/40] e2b / attack_mitig / r1  (attempt 1) 22:48:17 ===
+[e2b/attack_mitig/s10/r1] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r1  PDR=1.000 (600/600) connected=10/10
+=== [32/40] e2b / attack_mitig / r2  (attempt 1) 22:49:29 ===
+[e2b/attack_mitig/s10/r2] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r2  PDR=1.000 (600/600) connected=10/10
+=== [33/40] e2b / attack_mitig / r3  (attempt 1) 22:50:42 ===
+[e2b/attack_mitig/s10/r3] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r3  PDR=1.000 (600/600) connected=10/10
+=== [34/40] e2b / attack_mitig / r4  (attempt 1) 22:51:54 ===
+[e2b/attack_mitig/s10/r4] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r4  PDR=1.000 (600/600) connected=10/10
+=== [35/40] e2b / attack_mitig / r5  (attempt 1) 22:53:06 ===
+[e2b/attack_mitig/s10/r5] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r5  PDR=1.000 (600/600) connected=10/10
+=== [36/40] e2b / attack_mitig / r6  (attempt 1) 22:54:18 ===
+[e2b/attack_mitig/s10/r6] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r6  PDR=1.000 (600/600) connected=10/10
+=== [37/40] e2b / attack_mitig / r7  (attempt 1) 22:55:31 ===
+[e2b/attack_mitig/s10/r7] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r7  PDR=1.000 (600/600) connected=10/10
+=== [38/40] e2b / attack_mitig / r8  (attempt 1) 22:56:43 ===
+[e2b/attack_mitig/s10/r8] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r8  PDR=1.000 (600/600) connected=10/10
+=== [39/40] e2b / attack_mitig / r9  (attempt 1) 22:57:55 ===
+[e2b/attack_mitig/s10/r9] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r9  PDR=1.000 (600/600) connected=10/10
+=== [40/40] e2b / attack_mitig / r10  (attempt 1) 22:59:07 ===
+[e2b/attack_mitig/s10/r10] broker=mosquitto/e2b_mitig.conf port=8883 tls=True attack=True mitig=True
+  done -> results/e2b/attack_mitig/s10/r10  PDR=1.000 (600/600) connected=10/10
+[sweep] COMPLETE 2026-11-18T23:00:20+00:00  valid cells under results/: 80

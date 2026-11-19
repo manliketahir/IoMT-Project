@@ -1,0 +1,9 @@
+# Keep TLS material and run data out of the E6 image: run_gns3_e6.py copies the
+# HL7 certificates into the containers at run time instead.
+certs/*.key
+certs/*.crt
+certs/*.srl
+certs/*.csr
+results*
+*.log
+__pycache__
