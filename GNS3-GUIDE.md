@@ -13,6 +13,8 @@ First written 16 November 2026 for GNS3 2.2.61 with the VirtualBox GNS3 VM.
 >   host VirtualBox froze for minutes at a time (§2). The VMware VM is stable,
 >   but its clock runs at 0.900 of real time, and every GNS3 latency is
 >   corrected for that.
+> - **The loopback harness is retired.** GNS3 is the platform for all further
+>   work, and the loopback results are kept as the earlier-stage results.
 > - **The migration is done.** E2 (E2a, E2b) and E6 (E6a, E6b) both run on
 >   GNS3 at 10 patients, with all 80 runs of each sweep valid. The steps below
 >   are now scripted (`gns3_build_e2.py`, `gns3_build_e6.py`, `run_gns3.py`,
@@ -60,7 +62,7 @@ This machine runs the testbed in WSL2, and **WSL2 keeps the Windows
 hypervisor (Hyper-V) on**. Neither VirtualBox nor VMware can then use the CPU's
 virtualisation extensions directly. Both fall back to running through the
 Windows Hypervisor Platform. Do **not** disable Hyper-V or WSL2 to get around
-this: the loopback harness, which produced every loopback result, lives in
+this: the analysis environment (`analyze_gns3.py` and its Python venv) lives in
 WSL2.
 
 **VirtualBox under that fallback was unusable.** The GNS3 VM froze repeatedly.
@@ -320,16 +322,15 @@ them.
 
 ---
 
-## 8. Scale: use GNS3 for realism, not for 60 patients
+## 8. Scale: GNS3 runs at 10 patients
 
 Sixty Docker nodes in a GNS3 topology is unmanageable: the canvas becomes
 unreadable, start-up takes minutes, and the VM will not hold it comfortably.
-The split used in the write-up:
+GNS3 therefore runs at **scale 10**, with real interfaces, real switching and,
+in E6, real routing.
 
-- **GNS3** gives *network realism*: real interfaces, real switching and, in E6,
-  real routing. It runs at **scale 10**.
-- **The loopback harness** keeps giving the *scaling curve* at 10/30/60, which
-  is what it was built for and is already validated.
+The single-host loopback harness is **retired**. Its 10/30/60 scaling results
+are kept as the earlier-stage results, and all further work runs on GNS3.
 
 More beds inside GNS3 without more nodes would mean several `patient.py` per
 container. Beds that share a container also share one IP, which changes what
@@ -363,8 +364,8 @@ deliberately.
 
 ## 10. Things to be careful about
 
-- **Do not delete the loopback harness.** It produced every loopback number and
-  remains the scale-10/30/60 instrument. GNS3 is an addition.
+- **The loopback harness is retired**, but its scripts and results stay in the
+  repository, because the earlier-stage results in the report come from them.
 - **Build images on the GNS3 VM**, never in WSL2 or Docker Desktop.
 - **Collect results before stopping or resetting nodes** (§7.2).
 - **A VM restart closes the project**, and GNS3 recreates the containers when

@@ -26,10 +26,10 @@ comparable.
 
 ## Status
 
-> **E2 and E6 run in two environments.** The original single-host harness, with
-> roles separated by loopback addresses, gives the scaling curve at 10/30/60
-> patients. A GNS3-emulated network, with one container per role on emulated
-> Ethernet, gives network realism at 10 patients. See
+> **E2 and E6 run on a GNS3-emulated network**, with one container per role on
+> emulated Ethernet, at 10 patients. This is the platform for all further work.
+> The original single-host loopback harness is **retired**; its results (at
+> 10/30/60 patients) are kept below as the earlier-stage results. See
 > [E2 and E6 on GNS3](#e2-and-e6-on-gns3) and [GNS3-NODE-ACCESS.md](GNS3-NODE-ACCESS.md).
 
 **Current work**
@@ -147,8 +147,8 @@ together with TLS.
 Both experiments also run on a GNS3-emulated network, at 10 patients and 10
 repetitions per condition. Every role is a Docker container with its own
 address on emulated Ethernet. The design, conditions, mitigations and statistics
-are the same as on loopback; the loopback results above remain the scaling
-reference. [GNS3-NODE-ACCESS.md](GNS3-NODE-ACCESS.md) explains how to reach and
+are the same as on loopback. The loopback harness is retired, and the loopback
+results above are kept as the earlier-stage results. [GNS3-NODE-ACCESS.md](GNS3-NODE-ACCESS.md) explains how to reach and
 inspect every node; [GNS3-GUIDE.md](GNS3-GUIDE.md) explains how the GNS3 setup
 was built and why.
 
@@ -313,8 +313,10 @@ plane-c/          Clinical plane — HL7 v2 over MLLP (E6)
 
 ## Running it
 
-Requires Python 3, Mosquitto, OpenSSL and nftables on a Linux host. Developed
-and run on Kali under WSL 2.
+The loopback harness is retired; the steps below reproduce its earlier-stage
+results only. New runs use GNS3 ([On GNS3](#on-gns3)). It requires Python 3,
+Mosquitto, OpenSSL and nftables on a Linux host, and was run on Kali under
+WSL 2.
 
 ```bash
 cd plane-b
@@ -409,52 +411,38 @@ in `~/plane-c/certs`.
 These are deliberate simplifications of the present implementation, recorded so
 they are not mistaken for oversights.
 
-1. **Single host, loopback interfaces.** All components run on one machine, each
-   role bound to its own loopback address — in plane C the gateway at
-   `127.0.0.2`, the attacking peer at `127.0.0.3`, patients from `127.0.0.4`
-   upward. This is what makes the source-based controls measurable at all: an
-   allow-list, a per-source rate limit and a per-peer cap all key on the source
-   address, and without distinct addresses attacker and patient traffic would be
-   indistinguishable on one host. Three consequences follow:
-   - Absolute latencies are kernel-loopback figures and should be read as a
-     floor. They contain no propagation delay, no link capacity limit, no switch
-     queuing and no packet loss. The quantity the results rely on is the
-     *difference* between conditions measured under identical circumstances.
-   - The attacker is not bandwidth-limited as a remote attacker would be, and
-     all components contend for the same CPU.
-   - The source separation is cleaner than a real deployment's, so the efficacy
-     figures for source-based controls are best read as an **upper bound** on
-     what those controls achieve where traffic shares an address behind NAT.
-
-   The GNS3 runs lift the first point: their latencies include switching, and in
-   E6 routing. They also replace loopback aliases with real per-node addresses.
-   They do not lift the second: links are not bandwidth-limited, and every node
-   shares the GNS3 VM's CPUs.
-2. **The GNS3 network is switched, but not software-defined.** The switches are
+1. **The GNS3 network is switched, but not software-defined.** The switches are
    plain learning switches; Open vSwitch and the SDN controller are not yet stood
    up. The results therefore still cover host- and application-layer controls
    only — broker configuration, mutual TLS, nftables packet filtering, listener
    connection limits. E3 and E5 cannot run until that layer exists. On GNS3, E2
    and E6 run at 10 patients only, and E2c and E2d have not been re-run there.
-3. **GNS3 timing depends on the host.** On a host where WSL 2 keeps the Windows
+   - The emulated links are not bandwidth-limited, so the floods are not
+     constrained as a remote attacker's would be, and every node shares the
+     GNS3 VM's two CPUs.
+   - The source separation is cleaner than a real deployment's: every node has
+     its own address and there is no NAT. The efficacy figures for source-based
+     controls (allow-list, per-source rate limit, per-peer cap) are therefore
+     best read as an **upper bound**. The shared-address case is testable on
+     GNS3 but has not been tested yet.
+2. **GNS3 timing depends on the host.** On a host where WSL 2 keeps the Windows
    hypervisor on, the VMware GNS3 VM's clock runs at 0.900 of real time. GNS3
    latencies are corrected for it, using the clock log recorded during each
-   sweep. The GNS3 broker also negotiates TLS 1.3 where the loopback broker used
-   TLS 1.2.
-4. **Reporting cadence.** The HL7 gateway reports one message per reading rather
+   sweep.
+3. **Reporting cadence.** The HL7 gateway reports one message per reading rather
    than in 60 s charting-style batches, which would yield too few messages per
    run to support a median with a confidence interval. Batching changes the
    connection duty cycle and can be added as a factor.
-5. **Validation is split and kept out of the timing path.** HL7 conformance
+4. **Validation is split and kept out of the timing path.** HL7 conformance
    validation costs roughly 3.4 ms, about 30 times the cost of mutual TLS, so
    including it in the acknowledgment path would bury the effect being measured.
    The listener validates structurally by default and conformance validation is
    a separate factor. The library does not range-check values, so the
    physiological plausibility check is implemented here.
-6. **Consequence boundary.** Claims extend to "a forged value was accepted and
+5. **Consequence boundary.** Claims extend to "a forged value was accepted and
    persisted" and no further. No physiology model is coupled in, so nothing is
    claimed about clinical outcome.
-7. **Clinical middleware.** The clinical consumer is the HL7 listener line, not
+6. **Clinical middleware.** The clinical consumer is the HL7 listener line, not
    OpenICE over DDS. E6 establishes the HL7 precedent for plane C
    independently of that dependency. On GNS3 the gateway subscribes to the ward
    broker across the plane boundary, in place of the MQTT→DDS link.
