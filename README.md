@@ -149,7 +149,8 @@ repetitions per condition. Every role is a Docker container with its own
 address on emulated Ethernet. The design, conditions, mitigations and statistics
 are the same as on loopback; the loopback results above remain the scaling
 reference. [GNS3-NODE-ACCESS.md](GNS3-NODE-ACCESS.md) explains how to reach and
-inspect every node.
+inspect every node; [GNS3-GUIDE.md](GNS3-GUIDE.md) explains how the GNS3 setup
+was built and why.
 
 **Topologies** (one GNS3 project, two separate labelled networks):
 
@@ -248,6 +249,7 @@ host WSL 2 keeps the Windows hypervisor on.
 
 ```
 GNS3-NODE-ACCESS.md  Reaching and inspecting every GNS3 node (consoles, SSH, captures)
+GNS3-GUIDE.md        How GNS3 was set up and the testbed migrated (VMware, clock, design)
 
 plane-a/          Sensor plane — documented setup procedure only
   GUIDE.md
