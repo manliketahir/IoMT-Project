@@ -1,0 +1,262 @@
+[sweep] start 2026-11-18T23:14:55+00:00  exps=e6a e6b  reps=10  dur=60s  cells=80
+=== [1/80] e6a / baseline / r1  (attempt 1) 23:14:55 ===
+[e6a/baseline/s10/r1] tls=False cap=none allowlist=False attack=False
+  done -> results/e6a/baseline/s10/r1  gateway delivered 600/600
+=== [2/80] e6a / baseline / r2  (attempt 1) 23:16:09 ===
+[e6a/baseline/s10/r2] tls=False cap=none allowlist=False attack=False
+  done -> results/e6a/baseline/s10/r2  gateway delivered 600/600
+=== [3/80] e6a / baseline / r3  (attempt 1) 23:17:23 ===
+[e6a/baseline/s10/r3] tls=False cap=none allowlist=False attack=False
+  done -> results/e6a/baseline/s10/r3  gateway delivered 600/600
+=== [4/80] e6a / baseline / r4  (attempt 1) 23:18:37 ===
+[e6a/baseline/s10/r4] tls=False cap=none allowlist=False attack=False
+  done -> results/e6a/baseline/s10/r4  gateway delivered 600/600
+=== [5/80] e6a / baseline / r5  (attempt 1) 23:19:51 ===
+[e6a/baseline/s10/r5] tls=False cap=none allowlist=False attack=False
+  done -> results/e6a/baseline/s10/r5  gateway delivered 600/600
+=== [6/80] e6a / baseline / r6  (attempt 1) 23:21:05 ===
+[e6a/baseline/s10/r6] tls=False cap=none allowlist=False attack=False
+  done -> results/e6a/baseline/s10/r6  gateway delivered 600/600
+=== [7/80] e6a / baseline / r7  (attempt 1) 23:22:19 ===
+[e6a/baseline/s10/r7] tls=False cap=none allowlist=False attack=False
+  done -> results/e6a/baseline/s10/r7  gateway delivered 600/600
+=== [8/80] e6a / baseline / r8  (attempt 1) 23:23:33 ===
+[e6a/baseline/s10/r8] tls=False cap=none allowlist=False attack=False
+  done -> results/e6a/baseline/s10/r8  gateway delivered 600/600
+=== [9/80] e6a / baseline / r9  (attempt 1) 23:24:47 ===
+[e6a/baseline/s10/r9] tls=False cap=none allowlist=False attack=False
+  done -> results/e6a/baseline/s10/r9  gateway delivered 600/600
+=== [10/80] e6a / baseline / r10  (attempt 1) 23:26:01 ===
+[e6a/baseline/s10/r10] tls=False cap=none allowlist=False attack=False
+  done -> results/e6a/baseline/s10/r10  gateway delivered 600/600
+=== [11/80] e6a / mitig / r1  (attempt 1) 23:27:15 ===
+[e6a/mitig/s10/r1] tls=True cap=none allowlist=True attack=False
+[allowlist] off
+  done -> results/e6a/mitig/s10/r1  gateway delivered 600/600
+=== [12/80] e6a / mitig / r2  (attempt 1) 23:28:29 ===
+[e6a/mitig/s10/r2] tls=True cap=none allowlist=True attack=False
+[allowlist] off
+  done -> results/e6a/mitig/s10/r2  gateway delivered 600/600
+=== [13/80] e6a / mitig / r3  (attempt 1) 23:29:43 ===
+[e6a/mitig/s10/r3] tls=True cap=none allowlist=True attack=False
+[allowlist] off
+  done -> results/e6a/mitig/s10/r3  gateway delivered 600/600
+=== [14/80] e6a / mitig / r4  (attempt 1) 23:30:58 ===
+[e6a/mitig/s10/r4] tls=True cap=none allowlist=True attack=False
+[allowlist] off
+  done -> results/e6a/mitig/s10/r4  gateway delivered 600/600
+=== [15/80] e6a / mitig / r5  (attempt 1) 23:32:12 ===
+[e6a/mitig/s10/r5] tls=True cap=none allowlist=True attack=False
+[allowlist] off
+  done -> results/e6a/mitig/s10/r5  gateway delivered 600/600
+=== [16/80] e6a / mitig / r6  (attempt 1) 23:33:26 ===
+[e6a/mitig/s10/r6] tls=True cap=none allowlist=True attack=False
+[allowlist] off
+  done -> results/e6a/mitig/s10/r6  gateway delivered 600/600
+=== [17/80] e6a / mitig / r7  (attempt 1) 23:34:41 ===
+[e6a/mitig/s10/r7] tls=True cap=none allowlist=True attack=False
+[allowlist] off
+  done -> results/e6a/mitig/s10/r7  gateway delivered 600/600
+=== [18/80] e6a / mitig / r8  (attempt 1) 23:35:55 ===
+[e6a/mitig/s10/r8] tls=True cap=none allowlist=True attack=False
+[allowlist] off
+  done -> results/e6a/mitig/s10/r8  gateway delivered 600/600
+=== [19/80] e6a / mitig / r9  (attempt 1) 23:37:09 ===
+[e6a/mitig/s10/r9] tls=True cap=none allowlist=True attack=False
+[allowlist] off
+  done -> results/e6a/mitig/s10/r9  gateway delivered 600/600
+=== [20/80] e6a / mitig / r10  (attempt 1) 23:38:23 ===
+[e6a/mitig/s10/r10] tls=True cap=none allowlist=True attack=False
+[allowlist] off
+  done -> results/e6a/mitig/s10/r10  gateway delivered 600/600
+=== [21/80] e6a / attack / r1  (attempt 1) 23:39:37 ===
+[e6a/attack/s10/r1] tls=False cap=none allowlist=False attack=True
+  done -> results/e6a/attack/s10/r1  gateway delivered 600/600  forged accepted 299/299
+=== [22/80] e6a / attack / r2  (attempt 1) 23:41:07 ===
+[e6a/attack/s10/r2] tls=False cap=none allowlist=False attack=True
+  done -> results/e6a/attack/s10/r2  gateway delivered 600/600  forged accepted 299/299
+=== [23/80] e6a / attack / r3  (attempt 1) 23:42:38 ===
+[e6a/attack/s10/r3] tls=False cap=none allowlist=False attack=True
+  done -> results/e6a/attack/s10/r3  gateway delivered 600/600  forged accepted 299/299
+=== [24/80] e6a / attack / r4  (attempt 1) 23:44:08 ===
+[e6a/attack/s10/r4] tls=False cap=none allowlist=False attack=True
+  done -> results/e6a/attack/s10/r4  gateway delivered 600/600  forged accepted 299/299
+=== [25/80] e6a / attack / r5  (attempt 1) 23:45:38 ===
+[e6a/attack/s10/r5] tls=False cap=none allowlist=False attack=True
+  done -> results/e6a/attack/s10/r5  gateway delivered 600/600  forged accepted 299/299
+=== [26/80] e6a / attack / r6  (attempt 1) 23:47:08 ===
+[e6a/attack/s10/r6] tls=False cap=none allowlist=False attack=True
+  done -> results/e6a/attack/s10/r6  gateway delivered 600/600  forged accepted 299/299
+=== [27/80] e6a / attack / r7  (attempt 1) 23:48:38 ===
+[e6a/attack/s10/r7] tls=False cap=none allowlist=False attack=True
+  done -> results/e6a/attack/s10/r7  gateway delivered 600/600  forged accepted 299/299
+=== [28/80] e6a / attack / r8  (attempt 1) 23:50:08 ===
+[e6a/attack/s10/r8] tls=False cap=none allowlist=False attack=True
+  done -> results/e6a/attack/s10/r8  gateway delivered 600/600  forged accepted 299/299
+=== [29/80] e6a / attack / r9  (attempt 1) 23:51:39 ===
+[e6a/attack/s10/r9] tls=False cap=none allowlist=False attack=True
+  done -> results/e6a/attack/s10/r9  gateway delivered 600/600  forged accepted 299/299
+=== [30/80] e6a / attack / r10  (attempt 1) 23:53:09 ===
+[e6a/attack/s10/r10] tls=False cap=none allowlist=False attack=True
+  done -> results/e6a/attack/s10/r10  gateway delivered 600/600  forged accepted 299/299
+=== [31/80] e6a / attack_mitig / r1  (attempt 1) 23:54:39 ===
+[e6a/attack_mitig/s10/r1] tls=True cap=none allowlist=True attack=True
+[allowlist] off
+  done -> results/e6a/attack_mitig/s10/r1  gateway delivered 600/600
+=== [32/80] e6a / attack_mitig / r2  (attempt 1) 23:56:09 ===
+[e6a/attack_mitig/s10/r2] tls=True cap=none allowlist=True attack=True
+[allowlist] off
+  done -> results/e6a/attack_mitig/s10/r2  gateway delivered 600/600
+=== [33/80] e6a / attack_mitig / r3  (attempt 1) 23:57:39 ===
+[e6a/attack_mitig/s10/r3] tls=True cap=none allowlist=True attack=True
+[allowlist] off
+  done -> results/e6a/attack_mitig/s10/r3  gateway delivered 600/600
+=== [34/80] e6a / attack_mitig / r4  (attempt 1) 23:59:10 ===
+[e6a/attack_mitig/s10/r4] tls=True cap=none allowlist=True attack=True
+[allowlist] off
+  done -> results/e6a/attack_mitig/s10/r4  gateway delivered 600/600
+=== [35/80] e6a / attack_mitig / r5  (attempt 1) 00:00:40 ===
+[e6a/attack_mitig/s10/r5] tls=True cap=none allowlist=True attack=True
+[allowlist] off
+  done -> results/e6a/attack_mitig/s10/r5  gateway delivered 600/600
+=== [36/80] e6a / attack_mitig / r6  (attempt 1) 00:02:10 ===
+[e6a/attack_mitig/s10/r6] tls=True cap=none allowlist=True attack=True
+[allowlist] off
+  done -> results/e6a/attack_mitig/s10/r6  gateway delivered 600/600
+=== [37/80] e6a / attack_mitig / r7  (attempt 1) 00:03:40 ===
+[e6a/attack_mitig/s10/r7] tls=True cap=none allowlist=True attack=True
+[allowlist] off
+  done -> results/e6a/attack_mitig/s10/r7  gateway delivered 600/600
+=== [38/80] e6a / attack_mitig / r8  (attempt 1) 00:05:11 ===
+[e6a/attack_mitig/s10/r8] tls=True cap=none allowlist=True attack=True
+[allowlist] off
+  done -> results/e6a/attack_mitig/s10/r8  gateway delivered 600/600
+=== [39/80] e6a / attack_mitig / r9  (attempt 1) 00:06:41 ===
+[e6a/attack_mitig/s10/r9] tls=True cap=none allowlist=True attack=True
+[allowlist] off
+  done -> results/e6a/attack_mitig/s10/r9  gateway delivered 600/600
+=== [40/80] e6a / attack_mitig / r10  (attempt 1) 00:08:11 ===
+[e6a/attack_mitig/s10/r10] tls=True cap=none allowlist=True attack=True
+[allowlist] off
+  done -> results/e6a/attack_mitig/s10/r10  gateway delivered 600/600
+=== [41/80] e6b / baseline / r1  (attempt 1) 00:09:42 ===
+[e6b/baseline/s10/r1] tls=False cap=none allowlist=False attack=False
+  done -> results/e6b/baseline/s10/r1  gateway delivered 600/600
+=== [42/80] e6b / baseline / r2  (attempt 1) 00:10:56 ===
+[e6b/baseline/s10/r2] tls=False cap=none allowlist=False attack=False
+  done -> results/e6b/baseline/s10/r2  gateway delivered 600/600
+=== [43/80] e6b / baseline / r3  (attempt 1) 00:12:10 ===
+[e6b/baseline/s10/r3] tls=False cap=none allowlist=False attack=False
+  done -> results/e6b/baseline/s10/r3  gateway delivered 600/600
+=== [44/80] e6b / baseline / r4  (attempt 1) 00:13:23 ===
+[e6b/baseline/s10/r4] tls=False cap=none allowlist=False attack=False
+  done -> results/e6b/baseline/s10/r4  gateway delivered 600/600
+=== [45/80] e6b / baseline / r5  (attempt 1) 00:14:37 ===
+[e6b/baseline/s10/r5] tls=False cap=none allowlist=False attack=False
+  done -> results/e6b/baseline/s10/r5  gateway delivered 600/600
+=== [46/80] e6b / baseline / r6  (attempt 1) 00:15:52 ===
+[e6b/baseline/s10/r6] tls=False cap=none allowlist=False attack=False
+  done -> results/e6b/baseline/s10/r6  gateway delivered 600/600
+=== [47/80] e6b / baseline / r7  (attempt 1) 00:17:05 ===
+[e6b/baseline/s10/r7] tls=False cap=none allowlist=False attack=False
+  done -> results/e6b/baseline/s10/r7  gateway delivered 600/600
+=== [48/80] e6b / baseline / r8  (attempt 1) 00:18:19 ===
+[e6b/baseline/s10/r8] tls=False cap=none allowlist=False attack=False
+  done -> results/e6b/baseline/s10/r8  gateway delivered 600/600
+=== [49/80] e6b / baseline / r9  (attempt 1) 00:19:33 ===
+[e6b/baseline/s10/r9] tls=False cap=none allowlist=False attack=False
+  done -> results/e6b/baseline/s10/r9  gateway delivered 600/600
+=== [50/80] e6b / baseline / r10  (attempt 1) 00:20:47 ===
+[e6b/baseline/s10/r10] tls=False cap=none allowlist=False attack=False
+  done -> results/e6b/baseline/s10/r10  gateway delivered 600/600
+=== [51/80] e6b / mitig / r1  (attempt 1) 00:22:01 ===
+[e6b/mitig/s10/r1] tls=False cap=20 allowlist=False attack=False
+  done -> results/e6b/mitig/s10/r1  gateway delivered 600/600
+=== [52/80] e6b / mitig / r2  (attempt 1) 00:23:15 ===
+[e6b/mitig/s10/r2] tls=False cap=20 allowlist=False attack=False
+  done -> results/e6b/mitig/s10/r2  gateway delivered 600/600
+=== [53/80] e6b / mitig / r3  (attempt 1) 00:24:29 ===
+[e6b/mitig/s10/r3] tls=False cap=20 allowlist=False attack=False
+  done -> results/e6b/mitig/s10/r3  gateway delivered 600/600
+=== [54/80] e6b / mitig / r4  (attempt 1) 00:25:43 ===
+[e6b/mitig/s10/r4] tls=False cap=20 allowlist=False attack=False
+  done -> results/e6b/mitig/s10/r4  gateway delivered 600/600
+=== [55/80] e6b / mitig / r5  (attempt 1) 00:26:57 ===
+[e6b/mitig/s10/r5] tls=False cap=20 allowlist=False attack=False
+  done -> results/e6b/mitig/s10/r5  gateway delivered 600/600
+=== [56/80] e6b / mitig / r6  (attempt 1) 00:28:11 ===
+[e6b/mitig/s10/r6] tls=False cap=20 allowlist=False attack=False
+  done -> results/e6b/mitig/s10/r6  gateway delivered 600/600
+=== [57/80] e6b / mitig / r7  (attempt 1) 00:29:25 ===
+[e6b/mitig/s10/r7] tls=False cap=20 allowlist=False attack=False
+  done -> results/e6b/mitig/s10/r7  gateway delivered 600/600
+=== [58/80] e6b / mitig / r8  (attempt 1) 00:30:39 ===
+[e6b/mitig/s10/r8] tls=False cap=20 allowlist=False attack=False
+  done -> results/e6b/mitig/s10/r8  gateway delivered 600/600
+=== [59/80] e6b / mitig / r9  (attempt 1) 00:31:53 ===
+[e6b/mitig/s10/r9] tls=False cap=20 allowlist=False attack=False
+  done -> results/e6b/mitig/s10/r9  gateway delivered 600/600
+=== [60/80] e6b / mitig / r10  (attempt 1) 00:33:07 ===
+[e6b/mitig/s10/r10] tls=False cap=20 allowlist=False attack=False
+  done -> results/e6b/mitig/s10/r10  gateway delivered 600/600
+=== [61/80] e6b / attack / r1  (attempt 1) 00:34:21 ===
+[e6b/attack/s10/r1] tls=False cap=none allowlist=False attack=True
+  done -> results/e6b/attack/s10/r1  gateway delivered 0/600  flood established 300/300
+=== [62/80] e6b / attack / r2  (attempt 1) 00:35:40 ===
+[e6b/attack/s10/r2] tls=False cap=none allowlist=False attack=True
+  done -> results/e6b/attack/s10/r2  gateway delivered 0/600  flood established 300/300
+=== [63/80] e6b / attack / r3  (attempt 1) 00:37:00 ===
+[e6b/attack/s10/r3] tls=False cap=none allowlist=False attack=True
+  done -> results/e6b/attack/s10/r3  gateway delivered 0/600  flood established 300/300
+=== [64/80] e6b / attack / r4  (attempt 1) 00:38:19 ===
+[e6b/attack/s10/r4] tls=False cap=none allowlist=False attack=True
+  done -> results/e6b/attack/s10/r4  gateway delivered 0/600  flood established 300/300
+=== [65/80] e6b / attack / r5  (attempt 1) 00:39:39 ===
+[e6b/attack/s10/r5] tls=False cap=none allowlist=False attack=True
+  done -> results/e6b/attack/s10/r5  gateway delivered 0/600  flood established 300/300
+=== [66/80] e6b / attack / r6  (attempt 1) 00:40:58 ===
+[e6b/attack/s10/r6] tls=False cap=none allowlist=False attack=True
+  done -> results/e6b/attack/s10/r6  gateway delivered 0/600  flood established 300/300
+=== [67/80] e6b / attack / r7  (attempt 1) 00:42:18 ===
+[e6b/attack/s10/r7] tls=False cap=none allowlist=False attack=True
+  done -> results/e6b/attack/s10/r7  gateway delivered 0/600  flood established 300/300
+=== [68/80] e6b / attack / r8  (attempt 1) 00:43:37 ===
+[e6b/attack/s10/r8] tls=False cap=none allowlist=False attack=True
+  done -> results/e6b/attack/s10/r8  gateway delivered 0/600  flood established 300/300
+=== [69/80] e6b / attack / r9  (attempt 1) 00:44:56 ===
+[e6b/attack/s10/r9] tls=False cap=none allowlist=False attack=True
+  done -> results/e6b/attack/s10/r9  gateway delivered 0/600  flood established 300/300
+=== [70/80] e6b / attack / r10  (attempt 1) 00:46:15 ===
+[e6b/attack/s10/r10] tls=False cap=none allowlist=False attack=True
+  done -> results/e6b/attack/s10/r10  gateway delivered 0/600  flood established 300/300
+=== [71/80] e6b / attack_mitig / r1  (attempt 1) 00:47:34 ===
+[e6b/attack_mitig/s10/r1] tls=False cap=20 allowlist=False attack=True
+  done -> results/e6b/attack_mitig/s10/r1  gateway delivered 600/600  flood established 300/300
+=== [72/80] e6b / attack_mitig / r2  (attempt 1) 00:48:54 ===
+[e6b/attack_mitig/s10/r2] tls=False cap=20 allowlist=False attack=True
+  done -> results/e6b/attack_mitig/s10/r2  gateway delivered 600/600  flood established 300/300
+=== [73/80] e6b / attack_mitig / r3  (attempt 1) 00:50:13 ===
+[e6b/attack_mitig/s10/r3] tls=False cap=20 allowlist=False attack=True
+  done -> results/e6b/attack_mitig/s10/r3  gateway delivered 600/600  flood established 300/300
+=== [74/80] e6b / attack_mitig / r4  (attempt 1) 00:51:32 ===
+[e6b/attack_mitig/s10/r4] tls=False cap=20 allowlist=False attack=True
+  done -> results/e6b/attack_mitig/s10/r4  gateway delivered 600/600  flood established 300/300
+=== [75/80] e6b / attack_mitig / r5  (attempt 1) 00:52:51 ===
+[e6b/attack_mitig/s10/r5] tls=False cap=20 allowlist=False attack=True
+  done -> results/e6b/attack_mitig/s10/r5  gateway delivered 600/600  flood established 300/300
+=== [76/80] e6b / attack_mitig / r6  (attempt 1) 00:54:11 ===
+[e6b/attack_mitig/s10/r6] tls=False cap=20 allowlist=False attack=True
+  done -> results/e6b/attack_mitig/s10/r6  gateway delivered 600/600  flood established 300/300
+=== [77/80] e6b / attack_mitig / r7  (attempt 1) 00:55:30 ===
+[e6b/attack_mitig/s10/r7] tls=False cap=20 allowlist=False attack=True
+  done -> results/e6b/attack_mitig/s10/r7  gateway delivered 600/600  flood established 300/300
+=== [78/80] e6b / attack_mitig / r8  (attempt 1) 00:56:50 ===
+[e6b/attack_mitig/s10/r8] tls=False cap=20 allowlist=False attack=True
+  done -> results/e6b/attack_mitig/s10/r8  gateway delivered 600/600  flood established 300/300
+=== [79/80] e6b / attack_mitig / r9  (attempt 1) 00:58:09 ===
+[e6b/attack_mitig/s10/r9] tls=False cap=20 allowlist=False attack=True
+  done -> results/e6b/attack_mitig/s10/r9  gateway delivered 600/600  flood established 300/300
+=== [80/80] e6b / attack_mitig / r10  (attempt 1) 00:59:28 ===
+[e6b/attack_mitig/s10/r10] tls=False cap=20 allowlist=False attack=True
+  done -> results/e6b/attack_mitig/s10/r10  gateway delivered 600/600  flood established 300/300
+[sweep] COMPLETE 2026-11-19T01:00:48+00:00  valid cells under results/: 80

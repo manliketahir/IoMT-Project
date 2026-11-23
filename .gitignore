@@ -22,6 +22,16 @@ plane-c/results/e6a/
 plane-c/results/e6b/
 results_demo/
 
+# Raw per-repetition GNS3 run data (the same policy: summaries are tracked).
+plane-b/results-gns3/e2*/
+plane-c/results-gns3/e6*/
+# Scratch folders the GNS3 sweeps create on the VM: rejected attempts kept for
+# inspection, validation runs, and archived earlier runs.
+results_invalid/
+results_validate/
+results_soak/
+old_runs/
+
 # Scratch logs from ad-hoc runs
 plane-b/results/*_dbg.log
 plane-b/results/diag.log
